@@ -1,0 +1,55 @@
+
+        
+        .body{
+            /* background-image: url("practice class1/flowers.jpg");  */
+            background-color: cornflowerblue;
+            text-align: center;
+        
+        
+        }
+        h1{color: maroon; margin-left: 40px;}
+        span{color: cyan;}
+        /* hello */
+table{
+    background-color: aqua;
+    }
+
+.table1:hover{
+   /* margin-left: 200px;*/
+   background-color: black;
+   
+}
+.table1{
+    width: 200px;
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+#simple_text{
+    width: 100px;
+    border: 1px dotted seagreen;
+    word-wrap: normal;
+    
+    
+}
+
+.input_form{
+    text-align: center;
+    background-color: crimson;
+    margin: 20px 20px 20px 380px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.test{
+    margin: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(110, 103, 104);
+    border-radius: 40px 10px 40px 10px ;
+    cursor: crosshair;
+}
+input.form{
+    margin: 10px;
+    
+}
