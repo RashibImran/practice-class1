@@ -7,51 +7,67 @@
 </head>
 <body>
     <P>Hello world</P>
+
+
+
+<Script>
+    var numarray=[25,85,47,96,21,23,54,56,55,14,13,16,];
+
+    var result=numarray.filter(function(number){
+
+        return number>50;
+
+    });
+
+    document.write(result);
+</Script>
+
+
 </body>
 <script>
     // let age =17;
     // age>=18?(alert("adult")):(alert("child"))
-    const person={
-        Name: "Imran",
-        Age: 34,
-        city: "Dhaka",
-    }
-    for(let info in person){
-        document.write(info+" :"+person[info]+"<br/>")
-       // document.write(info+"<br/>");
-    }
-    const city=['Dhaka','Chittagong','Khulna','Barishal'];
-    for (let eachcity of city){
-        document.write( eachcity+"<br/>")
-    }
-    function addnumber(num1,num2,operator){
-        if(operator == "+")
-         {
-        var num3=num1+num2;
-        document.write(num3+"<br>");
-        }
-        else if(operator == "-")
-        {
-        var num3=num1-num2;
-        document.write(num3+"<br>");
-        }
-        else if(operator == "*")
-        {
-        var num3=num1*num2;
-        document.write(num3+"<br>");
-        }
-        else if(operator == "/")
-        {
-        var num3=num1/num2;
-        document.write(num3+"<br>");
-        }
-        else{
-            document.write("please input integer number ! wrong input entry");
-        }
+    // const person={
+    //     Name: "Imran",
+    //     Age: 34,
+    //     city: "Dhaka",
+    // }
+    // for(let info in person){
+    //     document.write(info+" :"+person[info]+"<br/>")
+    //    // document.write(info+"<br/>");
+    // }
+    // const city=['Dhaka','Chittagong','Khulna','Barishal'];
+    // for (let eachcity of city){
+    //     document.write( eachcity+"<br/>")
+    // }
+    // function addnumber(num1,num2,operator){
+    //     if(operator == "+")
+    //      {
+    //     var num3=num1+num2;
+    //     document.write(num3+"<br>");
+    //     }
+    //     else if(operator == "-")
+    //     {
+    //     var num3=num1-num2;
+    //     document.write(num3+"<br>");
+    //     }
+    //     else if(operator == "*")
+    //     {
+    //     var num3=num1*num2;
+    //     document.write(num3+"<br>");
+    //     }
+    //     else if(operator == "/")
+    //     {
+    //     var num3=num1/num2;
+    //     document.write(num3+"<br>");
+    //     }
+    //     else{
+    //         document.write("please input integer number ! wrong input entry");
+    //     }
         
-    }
+    // }
 
-    addnumber(56,35,"*");
+    // addnumber(56,35,"*");
 
 
 
